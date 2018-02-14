@@ -1,0 +1,320 @@
+/*
+Theme Name: Tecnologico
+Author: Instituto Tecnológico de Iztapalapa
+Author URI: http://www.itiztapalapa.edu.mx/
+Description: Platilla del sitio oficial de ITIZ
+Text Domain: Tecnologico
+*/
+
+@font-face {
+    font-family: 'soberana_sansregular';
+    src: url('font/SoberanaSans-Regular.otf');
+}
+@font-face {
+    font-family: 'soberana_textoregular';
+    src: url('font/SoberanaTexto-Regular.otf');
+}
+@font-face {
+    font-family: 'soberana_titularbold';
+    src: url('font/SoberanaTitular-Bold.otf');
+}
+
+body
+{
+ background: #fafafa;
+ color: #2F2F2F;
+ font: 1em "soberana_sansregular", Calibri, sans-serif;
+ margin: 16px auto 0;
+ width: 980px;
+}
+header {
+  height: 180px;
+  padding: 6px 16px;
+  width: 980px;
+  padding-top: 18px;
+}
+
+#acceso
+{
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  font: 12px "soberana_sansregular", Calibri, sans-serif;
+  text-transform: uppercase;
+}
+#acceso a:link, #acceso a:visited, #acceso a:active {
+  text-decoration: none;
+  color:#333333;
+  font: 12px "soberana_sansregular", Calibri, sans-serif;
+  padding: 5px 5px;
+}
+#acceso a:hover{
+  text-decoration: underline;
+}
+
+#acceso form{
+  margin-left: 30px;
+}
+
+#searchform {
+  background: #f1f1f1;
+  border: 1px solid #fafafa;
+  box-shadow: 1px 0 0 #f8f8f8;
+  padding:  0 5px 3px 5px;
+}
+#searchform input[type=text] {
+  background: #ffffff;
+  border: 1px solid #d6d6d6;
+  box-shadow: inset 1px 1px 0 #eeeeee;
+  height: 25px;
+  line-height: 25px;
+  padding: 0 28px 0 10px;
+  width: 200px;
+}
+
+#logos
+{
+  height: 80px;
+  width: 980px;
+  display: flex;
+  justify-content: space-between;
+}
+
+#logos figure{
+  margin: 0;
+  padding: 0;
+}
+
+#logo_sep{
+  height: 80px;
+  width: 272px;
+}
+
+#nombre
+{
+  margin-top: 25px;
+  padding: 5px;
+  width: 450px;
+}
+#nombre label
+{
+  font: 1.1em "soberana_titularbold", Calibri, sans-serif;
+  color:#98979C;
+  text-transform: uppercase;
+}
+
+#logo_dgest_tec img{
+  width: 120px;
+  height: 65px;
+  padding: 10px;
+}
+#logo_itiz img{
+  padding-top: 10px;
+  height: 70px;
+  width: 70px;
+}
+
+
+.menu_bar{
+	display:none;
+}
+
+header nav {
+	background: rgb(250,250,250);
+	background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIxMDAlIiB5Mj0iMCUiPgogICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iI2ZhZmFmYSIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjclIiBzdG9wLWNvbG9yPSIjY2VjZWNlIiBzdG9wLW9wYWNpdHk9IjEiLz4KICAgIDxzdG9wIG9mZnNldD0iNTAlIiBzdG9wLWNvbG9yPSIjY2VjZWNlIiBzdG9wLW9wYWNpdHk9IjEiLz4KICAgIDxzdG9wIG9mZnNldD0iNTAlIiBzdG9wLWNvbG9yPSIjY2VjZWNlIiBzdG9wLW9wYWNpdHk9IjEiLz4KICAgIDxzdG9wIG9mZnNldD0iOTMlIiBzdG9wLWNvbG9yPSIjY2VjZWNlIiBzdG9wLW9wYWNpdHk9IjEiLz4KICAgIDxzdG9wIG9mZnNldD0iOTklIiBzdG9wLWNvbG9yPSIjZmFmYWZhIiBzdG9wLW9wYWNpdHk9IjEiLz4KICA8L2xpbmVhckdyYWRpZW50PgogIDxyZWN0IHg9IjAiIHk9IjAiIHdpZHRoPSIxIiBoZWlnaHQ9IjEiIGZpbGw9InVybCgjZ3JhZC11Y2dnLWdlbmVyYXRlZCkiIC8+Cjwvc3ZnPg==);
+	background: -moz-linear-gradient(left, rgba(250,250,250,1) 0%, rgba(206,206,206,1) 7%, rgba(206,206,206,1) 50%, rgba(206,206,206,1) 50%, rgba(206,206,206,1) 93%, rgba(250,250,250,1) 99%); /* FF3.6-15 */
+	background: -webkit-linear-gradient(left, rgba(250,250,250,1) 0%,rgba(206,206,206,1) 7%,rgba(206,206,206,1) 50%,rgba(206,206,206,1) 50%,rgba(206,206,206,1) 93%,rgba(250,250,250,1) 99%); /* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(to right, rgba(250,250,250,1) 0%,rgba(206,206,206,1) 7%,rgba(206,206,206,1) 50%,rgba(206,206,206,1) 50%,rgba(206,206,206,1) 93%,rgba(250,250,250,1) 99%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fafafa', endColorstr='#fafafa',GradientType=1 ); /* IE6-8 */
+	z.index:1000;
+	width:auto;
+	margin:20px auto;
+}
+
+header nav ul{
+  	list-style:none;
+}
+
+header nav ul li{
+	display: inline-block;
+}
+
+header nav li > ul{
+/*estilo de los submenus*/
+  background: rgb(250,250,250);
+  background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIwJSIgeTI9IjEwMCUiPgogICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iI2ZhZmFmYSIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiNkYmRiZGIiIHN0b3Atb3BhY2l0eT0iMSIvPgogIDwvbGluZWFyR3JhZGllbnQ+CiAgPHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEiIGhlaWdodD0iMSIgZmlsbD0idXJsKCNncmFkLXVjZ2ctZ2VuZXJhdGVkKSIgLz4KPC9zdmc+);
+  background: -moz-linear-gradient(top,  rgba(250,250,250,1) 0%, rgba(219,219,219,1) 100%); /* FF3.6-15 */
+  background: -webkit-linear-gradient(top,  rgba(250,250,250,1) 0%,rgba(219,219,219,1) 100%); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(to bottom,  rgba(250,250,250,1) 0%,rgba(219,219,219,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fafafa', endColorstr='#dbdbdb',GradientType=0 ); /* IE6-8 */
+  border:1px #ccc solid;
+}
+
+header nav ul > li:hover{
+	background-color:#FFF;
+  	color:#444;
+  	text-decoration:underline;	
+}
+
+header nav ul li .sub-menu{
+	display: none;
+}
+
+header nav ul li:hover .sub-menu{
+	display: block;
+	background-color:transparent;
+	position: absolute;
+	width: 250px;
+	z-index: 100000;	
+}
+
+header nav ul li a{
+/*estilo de los enlaces */
+  color:#555555;
+  font: 12px "soberana_titularbold", Calibri, sans-serif;
+  display: block;
+  padding: 15px 10px;
+  text-decoration: none;
+}
+
+header nav ul li .sub-menu li{
+	display: block;
+	overflow: hidden;
+	border-bottom: 1px solid rgba(255,255,255, 0.5);
+}
+
+header nav ul li .sub-menu li a{
+	display: block;
+}
+
+.noticias_posts .p_principal{
+float: left;
+width: 680px;
+}
+
+.noticias_posts .noticia{
+margin-top: 10px;
+font: 16px "soberana_textoregular", Calibri, sans-serif;
+}
+
+.noticia{
+display: flex;
+align-items: center;
+}
+
+.busqueda{
+display: block;
+}
+
+.noticia_imagen{
+display: inline-block;
+width: 30%;
+height: 100%;
+}
+
+.noticia_imagen img{
+width: 200px;
+height: 140px;
+margin-top: 20px;
+margin-left: 20px;
+margin-bottom: 15px;
+}
+
+.noticia_contenido{
+display: inline-block;
+width: 70%;
+height: 100%;
+}
+
+.noticias_posts .noticia header{
+margin-left: 50px;
+padding: 0;
+margin-bottom: 0;
+height: auto;
+width: auto;
+}
+.noticias_posts .noticia header h1{
+margin-bottom: 10px;
+width: 90%;
+text-align: justify;
+}
+
+.noticias_posts .noticia header h1:hover{
+text-decoration:underline;
+}
+
+.noticias_posts .noticia header h1 a{
+font: 18px "soberana_titularbold", Calibri, sans-serif;
+color: #A5273F;
+text-decoration:none;
+}
+
+.noticias_posts .noticia p{
+display: block;
+margin-left: 50px;
+padding-right: 50px;
+text-align: justify;
+}
+
+.noticia_contenedor_ver{
+/*margin-left: 50px;*/
+display: block;
+text-align: center;
+margin-top: 30px;
+margin-bottom: 10px;
+}
+
+.noticia_contenedor_ver a{
+text-decoration: none;
+color: white;
+padding: 10px;
+background-color: red;
+-webkit-box-shadow: 5px 5px 5px 1px #858585;
+box-shadow: 5px 5px 5px 1px #858585;
+}
+
+.contenedor_pie{
+  margin-top: 50px;
+  display: block;
+}
+.contenedor_pie section{
+  float: none;
+  width: 980px;
+  display: flex;
+  justify-content: center;
+}
+.contenedor_pie section article{
+  padding: 20px 40px 0px 40px;
+  display: block;
+}
+.contenedor_pie section article ul li{
+  list-style-type: none;
+  padding-top: 5px;
+}
+.contenedor_pie section article ul li a{
+  text-decoration: none;
+  color:#555555;
+}
+.contenedor_pie section article ul li a:hover{
+  text-decoration: underline;
+}
+.contenedor_pie section article .menupie{
+  color:#A5273F;
+  text-transform: uppercase;
+  font: 18px "soberana_sansregular" , Calibri, sans-serif;
+}
+.pieitl{
+  background: #fafafa;
+  color: #98979C;
+  font-family: "soberana_sansregular", Calibri, sans-serif;
+  font-size: 1em;
+}
+
+.pie{
+  width: 980px;
+  text-align: center;
+  background: #fafafa;
+  color: #98979C;
+  font-family: "soberana_sansregular", Calibri, sans-serif;
+  font-size: .90em;
+}
