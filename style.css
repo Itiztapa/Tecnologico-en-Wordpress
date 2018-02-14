@@ -273,6 +273,29 @@ background-color: red;
 box-shadow: 5px 5px 5px 1px #858585;
 }
 
+#sidebar{
+  float: right;
+  width: 280px;
+}
+
+#sidebar h3{
+  font: 12px "soberana_textoregular", Calibri, sans-serif;
+  text-align:center;
+}
+
+#sidebar .wp-caption{
+  margin:auto;
+}
+
+#sidebar .wp-caption-text{
+  font: 12px "soberana_textoregular", Calibri, sans-serif;
+}
+
+#sidebar iframe{
+  width: 280px;
+  height: 220px;
+}
+
 .contenedor_pie{
   margin-top: 50px;
   display: block;
