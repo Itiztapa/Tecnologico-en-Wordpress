@@ -273,6 +273,30 @@ background-color: red;
 box-shadow: 5px 5px 5px 1px #858585;
 }
 
+.seccion_noticias{
+display: block;
+}
+
+.noticia_individual h1{
+    font: 22px "soberana_titularbold", Calibri, sans-serif;
+    color: #A5273F;
+    text-align:center;
+}
+
+.noticia_individual p{
+    font: 16px "soberana_textoregular", Calibri, sans-serif;
+}
+
+.noticia_individual p img{
+margin-bottom: 10px;
+}
+
+.pagination{
+float: right;
+margin-top: 50px;
+
+}
+
 #sidebar{
   float: right;
   width: 280px;
