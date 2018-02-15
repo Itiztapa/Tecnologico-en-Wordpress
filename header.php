@@ -3,6 +3,7 @@
   <head>
     <meta charset="<?php bloginfo('charset'); ?>">
     <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximun-scale=1.0, minimun-scale=1.0">
+    <link rel="stylesheet" href="http://www.itiztapalapa.edu.mx/wp-content/themes/Tecnologico/style.css">
     <title><?php bloginfo('name'); ?></title>
     <?php wp_head(); ?>
   </head>

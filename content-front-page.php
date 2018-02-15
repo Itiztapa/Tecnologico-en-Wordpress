@@ -37,6 +37,7 @@
             <a href="<?php the_permalink(); ?>">Ver publicacion</a>
           </div>
           <footer>
+            
               <?php echo get_avatar( get_the_author_meta( 'ID' ), 48 ); ?>
               <address>Por <?php the_author_posts_link() ?></address>
           </footer>
