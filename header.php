@@ -3,7 +3,10 @@
   <head>
     <meta charset="<?php bloginfo('charset'); ?>">
     <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximun-scale=1.0, minimun-scale=1.0">
-    <link rel="stylesheet" href="http://www.itiztapalapa.edu.mx/wp-content/themes/Tecnologico/style.css">
+    <link rel="stylesheet" href="http://localhost/wp-content/themes/Tecnologico/iconos.css">
+    <link rel="stylesheet" href="http://localhost/wp-content/themes/Tecnologico/style.css">
+    <script src="http://localhost/wp-content/themes/Tecnologico/js/jquery-1.8.1.min.js"></script>
+    <script type="text/javascript" src="http://localhost/wp-content/themes/Tecnologico/js/script.js"></script>
     <title><?php bloginfo('name'); ?></title>
     <?php wp_head(); ?>
   </head>

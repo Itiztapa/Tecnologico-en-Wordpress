@@ -14,7 +14,7 @@
             <?php echo get_avatar( get_the_author_meta( 'ID' ), 48 ); ?>
             <address>Por <?php the_author_posts_link() ?></address>
         </footer>
-        <img src="http://www.itiztapalapa.edu.mx/wp-content/themes/Tecnologico/images/lineahorizontal.png" alt="" width="980px">
+        <img src="http://localhost/wp-content/themes/Tecnologico/images/lineahorizontal.png" alt="" width="980px">
       </article>
     <?php endwhile; ?>
     <div class="pagination">
