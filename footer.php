@@ -3,9 +3,9 @@
       <article>
         <ul>
           <li><a class="menupie" href="">IT DE IZTAPALAPA</a></li>
-          <li><a href="http://localhost/index.php/semblanza/">Semblanza</a></li>
-          <li><a href="http://localhost/index.php/director/">Director</a></li>
-          <li><a href="http://localhost/index.php/directorio/">Directorio</a></li>
+          <li><a href="http://www.itiztapalapa.edu.mx/index.php/semblanza/">Semblanza</a></li>
+          <li><a href="http://www.itiztapalapa.edu.mx/index.php/director/">Director</a></li>
+          <li><a href="http://www.itiztapalapa.edu.mx/index.php/directorio/">Directorio</a></li>
         </ul>
       </article>
       <article>
@@ -34,10 +34,10 @@
     <section>
       <div align="center">
         <div align="center" class="pieitl">
-          <p><img src="http://localhost/wp-content/themes/Tecnologico/images/lineapie.png" width="980" height="7"></p>
+          <p><img src="http://www.itiztapalapa.edu.mx/wp-content/themes/Tecnologico/images/lineapie.png" width="980" height="7"></p>
           <p>INSTITUTO TECNOLÓGICO DE IZTAPALAPA, ALGUNOS DERECHOS RESERVADOS © 2017</p>
           <div align="center">
-            <img src="http://localhost/wp-content/themes/Tecnologico/images/lineapie.png" alt="" width="995" height="7">
+            <img src="http://www.itiztapalapa.edu.mx/wp-content/themes/Tecnologico/images/lineapie.png" alt="" width="995" height="7">
           </div>
         </div>
       </div>
@@ -62,10 +62,10 @@
           <td colspan="3"><div align="center">
             <table width="994" border="0">
               <tr>
-                <td align="center" valign="middle"><div align="center"><img src="http://localhost/wp-content/themes/Tecnologico/images/lineapie.png" alt="l" width="360" height="7"></div></td>
-                <td class ="imagen_logo_sep_footer"><div align="center"><img src="http://localhost/wp-content/themes/Tecnologico/images/logoSEP_hoz.png" width="220" height="60" alt="SEP"></div></td>
+                <td align="center" valign="middle"><div align="center"><img src="http://www.itiztapalapa.edu.mx/wp-content/themes/Tecnologico/images/lineapie.png" alt="l" width="360" height="7"></div></td>
+                <td class ="imagen_logo_sep_footer"><div align="center"><img src="http://www.itiztapalapa.edu.mx/wp-content/themes/Tecnologico/images/logoSEP_hoz.png" width="220" height="60" alt="SEP"></div></td>
                 <td align="center" valign="middle"><div align="center">
-                  <div align="center"><img src="http://localhost/wp-content/themes/Tecnologico/images/lineapie.png" alt="l" width="360" height="7"></div>
+                  <div align="center"><img src="http://www.itiztapalapa.edu.mx/wp-content/themes/Tecnologico/images/lineapie.png" alt="l" width="360" height="7"></div>
                 </div></td>
               </tr>
             </table>

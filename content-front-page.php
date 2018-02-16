@@ -43,7 +43,7 @@
           </footer>
         </div>
       </article>
-      <img src="http://localhost/wp-content/themes/Tecnologico/images/lineahorizontal.png" alt="">
+      <img src="http://www.itiztapalapa.edu.mx/wp-content/themes/Tecnologico/images/lineahorizontal.png" alt="">
     <?php endwhile; ?>
   </section>
 <?php else : ?>

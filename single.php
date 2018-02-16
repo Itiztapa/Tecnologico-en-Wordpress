@@ -5,7 +5,7 @@
   <section class="noticia_individual">
     <h1><?php the_title(); ?></h1>
     <?php the_content(); ?>
-    <img src="http://localhost/wp-content/themes/Tecnologico/images/lineahorizontal.png" alt="" width="980px">
+    <img src="http://www.itiztapalapa.edu.mx/wp-content/themes/Tecnologico/images/lineahorizontal.png" alt="" width="980px">
   </section>
 <?php else : ?>
   <p><?php _e('Ups!, esta entrada no existe.'); ?></p>

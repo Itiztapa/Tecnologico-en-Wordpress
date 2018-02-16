@@ -8,7 +8,7 @@
 <?php endif; ?>
 
 <!-- Contenido de página de inicio -->
-<?php echo file_get_contents("http://localhost/content-front-page.php"); ?>
+<?php echo file_get_contents("http://www.itiztapalapa.edu.mx/content-front-page.php"); ?>
 
 <!-- LLamado del contenido del archivo sidebar.php -->
 <?php get_sidebar(); ?>
